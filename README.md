@@ -9,9 +9,9 @@ All GIT repositories have one branch that is the overall _main_ branch. If this 
 ## Your Task
 
 1. You will be cloning this repository to your local machine. 
-  - Grab the URL from your browser window _**or**_ from the `Code` button at the top-right.
-  - In the terminal, navigate to the folder when you want to place this repo (it will make its own folder)
-  - Type:  `git clone <the URL>`  where you paste the URL to this repo
+    - Grab the URL from your browser window _**or**_ from the `Code` button at the top-right.
+    - In the terminal, navigate to the folder when you want to place this repo (it will make its own folder)
+    - Type:  `git clone <the URL>`  where you paste the URL to this repo
 
 2. By default you will not have a `dev` branch - you'll only have `main`.
    - Make a new branch called `dev`
@@ -28,7 +28,9 @@ All GIT repositories have one branch that is the overall _main_ branch. If this 
     */
    ```
 
-4. 
+4. Add the all-important line `"use strict";` as the first line of actual _code_.
+
+5. Create the function 
 
 ### Reminder: Development Branches
 
