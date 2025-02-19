@@ -16,7 +16,7 @@ This repository is _your_ copy of a template created by your teacher. It lives i
 2. You will not have a `dev` branch, so make one:
    - Make a new branch called _dev_:  `git branch dev`
    - Switch to the _dev_ branch:  `git checkout dev`
-   - Link this new _dev_ branch to your GitHub repo: `git push -u <remote stream name> <branch name>`
+   - Link this new _dev_ branch to your GitHub repo: `git push -u origin dev`
   
 3. Make a script file named `script.js` and place the following header block comment at the top and put your name next to `Author`:
    ```JS
