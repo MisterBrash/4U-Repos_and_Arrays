@@ -60,10 +60,10 @@ Copy the following `randInt()` function to your code file - you'll need it for t
 **Example:** `second_lowest([9, 4, 11, 3, 1, 0, 9, 1, 4, 2]);  ->  1`
 
 3. Create the function `frequency(numbers, arr)` which returns a _new_ array containing the _frequency_ of each integer in array `numbers` that is found in array `arr`. <br>
-**Example:** `frequency([1,6,8],[3,5,6,4,5,3,2,3,6,2,7,8,0,2,3]);  ->  [0,2,1]
+**Example:** `frequency([1,6,8],[3,5,6,4,5,3,2,3,6,2,7,8,0,2,3]);  ->  [0,2,1]`
 
 4. Create the function `array_pow(arr, exponent)` which applies the given `exponent` to every element in the given array `arr` and _returns a new array_ with those values. See if you can do this without a loop... It's ok if you need a loop, but if you read through [the arrays lesson](./.lesson/ARRAYS.md) you might have learned something that would help. <br>
-**Example:** `array_pow([4, 7, 3, 2, 1], 3);  ->  [64, 343, 27, 8, 1] 
+**Example:** `array_pow([4, 7, 3, 2, 1], 3);  ->  [64, 343, 27, 8, 1]`
 
 **Final Notes:**
     - None of the above functions should modify the original array.
