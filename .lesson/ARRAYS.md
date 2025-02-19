@@ -1,20 +1,22 @@
-# Review: Arrays
+# Review & New Information: Arrays
 
-###### ICS4U - This is a review and lesson. [Click here to go back to the README](../README.md).
+###### ICS4U - Mr. Brash 🐿️
 
-The most basic _abstract_ data type is the `Array`. Not all programming languages have them and they can create havoc in the memory of the computer.
+[Click here to go back to the README](../README.md).
+
+The most basic [_abstract_ data type ](https://www.geeksforgeeks.org/abstract-data-types/)is the `Array` (aka `List`). Not all programming languages have them and they can create havoc in the memory of the computer.
 
 # Arrays
 
 Think of an array like a shelf of jars where each jar is an _indexed_ variable:
 
-<img src="assets/array.png" width="400">
+<img src="./assets/array.png" width="400">
 
 While [arrays](https://www.w3schools.com/js/js_arrays.asp) are a grade 11 topic, it is important to understand that they are a critical data structure that is not native to all programming languages.
 
 The [Array](https://www.w3schools.com/js/js_arrays.asp) is an _abstract data type_ that JavaScript implements as a doubly-linked list.
 
-<img src="assets/dbl_link_list.png">
+<img src="./assets/dbl_link_list.png">
 
 JavaScript is a _[loosely typed language](https://www.computerhope.com/jargon/l/looslang.htm)_. An Array can hold any combination of data types - text, numbers, etc...
 <br>Not so in _strongly typed languages_ like C, C++, Java, etc... 
@@ -224,4 +226,8 @@ There are many more. Get to know them for whatever programming language you are 
 
 ###### [Back to top](#arrays)
 
-<br><br><br><br><br>
+<br><br>
+
+🐿️
+
+<br><br><br>
