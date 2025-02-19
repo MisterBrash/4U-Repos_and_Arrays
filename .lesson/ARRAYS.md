@@ -1,6 +1,6 @@
 # Review: Arrays
 
-###### ICS4U - This is a review and lesson. [Click here for your task(s)](README.md).
+###### ICS4U - This is a review and lesson. [Click here to go back to the README](../README.md).
 
 The most basic _abstract_ data type is the `Array`. Not all programming languages have them and they can create havoc in the memory of the computer.
 
@@ -220,7 +220,7 @@ There are many more. Get to know them for whatever programming language you are 
 
 <br>
 
-###### ICS4U - This is the review / lesson file. [Click here for your task(s)](README.md).
+###### ICS4U - This is the review / lesson file. [Click here to go back to the README](../README.md).
 
 ###### [Back to top](#arrays)
 
