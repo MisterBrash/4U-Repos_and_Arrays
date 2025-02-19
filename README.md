@@ -2,9 +2,10 @@
 
 ##### ICS4U - Mr. Brash 🐿️
 
-**A quick and simple repo to practice version control.**
+## Cloning a remote repository
 
-All GIT repositories have one branch that is the overall _main_ branch. If this were a website, the _main_ branch is where the current version of the website lives - it is the one being shown to the world.
+This repository is _your_ copy of a template created by your teacher. It lives inside the [_organization_](https://github.com/MTH-ICS4U-2425) of our Class GitHub account.
+
 
 ## Your Task
 
@@ -30,12 +31,25 @@ All GIT repositories have one branch that is the overall _main_ branch. If this 
 
 4. Add the all-important line `"use strict";` as the first line of actual _code_.
 
-5. Create the function 
+5. **Make a commit with the message "Ready to code"**
 
-### Reminder: Development Branches
+6. 
 
-When you work on code, you might make mistakes or get interrupted. You might also have interesting ideas that break the structure and usability of the main code. We should _never_ develop on the `main` branch of a repository. That is a protected space. We should _always_ create an "alternate timeline" (branch) for our repository where we make changes. **Note:** you can have as many branches as you want but merging them back together can be really troublesome and confusing.
+
+### Reminder: Branches
+
+All GIT repositories have one branch that is the overall _main_ branch. If this were a website, the _main_ branch is where the current version of the website lives - it is the one being shown to the world.
+
+When you work on code, you might make mistakes or have interesting ideas that break the structure and usability of the main code. We should _never_ develop on the `main` branch of a repository. We should _always_ create an "alternate timeline" (branch) for our repository where we make changes. **Note:** you can have as many branches as you want but merging them back together can be really troublesome and confusing.
 
 #### New Branch
 
-You can make new branches in Git or in GitHub, but they do not automatically get connected.
+You can make new branches in Git **_or_** in GitHub, but they do _not_ connect automatically.
+| Git (recommended) | GitHub |
+| --- | --- |
+| In terminal:<br>`git branch <name>` <br>`git checkout <name>`| Go to your repository.<br>Look for the branch dropdown (probably says "main").<br>Click and create a new branch. |
+
+To connect a _local_ branch to a _remote_ branch, we `push` from the terminal with a special `-u` flag:  
+`git push -u <remote stream> <branch name>`  
+
+**Example** `git push -u github dev`  (assuming your remote was named `github` - the more classic name is `origin`)
